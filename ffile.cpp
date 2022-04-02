@@ -15,6 +15,7 @@ int main()
             cin>>ar[i];
         }
         sort(ar,ar+n);
+        printf("\nTHE SORTED ARRAY IS :- \n");
         for(int i=0;i<n;i++)
         {
             cout<<ar[i]<<"\t";
